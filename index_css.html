@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css box model</title>
+</head>
+<body>
+    <header id="header">
+        <h1 style="color:blueviolet">Welcome to gods own country</h1>
+       <div><img src="./image/img1.png" alt="tourism logo"></div> 
+      <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About kerala</a></li>
+            <li><a href="#destination">Top Destinations</a></li>
+            <li><a href="#distirct">Distirct</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section>
+            
+            <a href="#">Learn more</a>
+            <hr>
+        </section>
+        <section id="destination">
+            <h1>Top Destinations</h1>
+            <article>
+                <figure>
+                    <img src="./image/desti1.png">
+                    <figcaption><b>Alleppey </b></figcaption>
+                </figure>
+                <p>
+                    Also known as Alappuzha, Aleppey will take your breath away with its emerald green backwaters, palm-fringed lakes and beautiful stretches of lush paddy fields in the heart of Kerala</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="./image/desti2.jpg">
+                    <figcaption><b>Athirapally </b></figcaption>
+                </figure>
+                <p>
+                    Located near Chalakudy, Athirappilly is a village famous for the Athirappilly waterfalls.It is situated at 1000 feet above sea level on the Chalakudy river,with the falls itself of a height of 80 feet. Nicknamed the Niagara of India, these are the largest waterfalls in Kerala. Just 5kms away from from Athirappilly waterfalls are the Vazhachal waterfalls.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="./image/desti3.jpg">
+                    <figcaption><b>Vagamon </b></figcaption>
+                </figure>
+                <p>
+                    Located on the Idukki ,Kottayam border,vagamon is an enchanting little hill station complete with religious mysticism and European legacy. The cool mountain air and the green grassy hills everywhere you look will no doubt mesmerize you. Away from the buzzing tourist crowd at 1100 meters above sea level, Vagamon is the perfect offbeat hill station to unwind.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="./image/desti4.jpg">
+                    <figcaption><b>Bekal </b></figcaption>
+                </figure>
+                <p>
+                    Bekal,a small town in Kasaragod district,is not just a known tourist location of the state but also a land with many stories of the past. The ancient fort, extensive beaches, numerous estuaries all set in the rich cultural backdrop, attracts tourists and travelers alike.</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="./image/desti5.jpg">
+                    <figcaption><b>Kumarakom </b></figcaption>
+                </figure>
+                <p>
+                    Situated in the enchanting backdrop of Vembanad Lake, Kerala’s largest lake, Kumarakom is a nature lover’s paradise. Home to one of the most noted bird sanctuaries in Kerala, the Kumarakom Bird Sanctuary, spread over an area of 14 acres is a major attraction here. Local birds like waterfowl, cuckoo, owl, egret, heron, cormorant, moorhen, darter, and brahminy kite, as well as the migratory Siberian crane. Parrot, teal, lark, flycatcher, and other birds are seen here during their respective migratory seasons.</p>
+            </article>
+        </section>
+        
+        <!--About kerala map-->
+        <section id="about">
+            <article>
+                <h1>About kerala</h1>
+                <figure>
+                    <img src="./image/Keralamap.png">
+                    
+                </figure>
+                <p>Kerala is situated at the southwestern end of the Indian subcontinent. Kerala has a long history of art and cultural heritage and foreign trade with other countries. The state with the highest literacy rate in India is noted for its achievements in education, health, gender equality, social justice, law and order. In addition to these, the state has the lowest infant mortality rate in the country.</p>
+            </article>
+
+        </section>
+        <!--District list ol-->
+        <section id="distirct">
+            <article>
+                <h1>Distirct</h1>
+                <ol>
+                    <li><a href="#about">Thiruvanathapuram</a></li>
+                    <li><a href="#about">Kollam</a></li>
+                    <li><a href="#about">Pathanamthitta</a></li>
+                    <li><a href="#about">Alappuzha</a></li>
+                    <li><a href="#about">Kottayam</a></li>
+                    <li><a href="#about">Idukki</a></li>
+                    <li><a href="#about">Eranakulan</a></li>
+                    <li><a href="#about">Thrissur</a></li>
+                    <li><a href="#about">Malappuram</a></li>
+                    <li><a href="#about">Malappuram</a></li>
+                    <li><a href="#about">Kozhikode</a></li>
+                    <li><a href="#about">Wayanaad</a></li>
+                    <li><a href="#about">Kannur</a></li>
+                    <li><a href="#about">Kasaragod</a></li>
+                </ol>
+            </article>
+        </section>
+        <!--contact us form by legend tag,field set,validations-->
+        <section id="contact">
+            <form>
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                    <label for="phn">Phone Number:</label>
+                    <input type="tel" id="phn" name="phn" maxlength="10" required minlength="5" pattern="^\+?[1-9]\d{1,14}$" ><br><br>
+                    <label for="place">Place to Visit:</label>
+                    <select name="place" id="place">
+                        <option value="Thiruvanathapuram">Thiruvanathapuram</option>
+                        <option value="Kollam">Kollam</option>
+                        <option value="Pathanamthitta">Pathanamthitta</option>
+                        <option value="Alappuzha">Alappuzha</option>
+                        <option value="Kottayam">Kottayam</option>
+                        <option value="Idukki">Idukki</option>
+                        <option value="Eranakulan">Eranakulan</option>
+                        <option value="Thrissur">Thrissur</option>
+                        <option value="Malappuram">Malappuram</option>
+                        <option value="Kozhikode">Kozhikode</option>
+                        <option value="Wayanaad">Wayanaad</option>
+                        <option value="Kannur">Kannur</option>
+                        <option value="Kasaragod">Kasaragod</option>
+                      </select>
+                      <input type="submit" name="submit" >
+                      <br><br>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        CopyRight@2024
+    </footer>
+</body>
+</html>
